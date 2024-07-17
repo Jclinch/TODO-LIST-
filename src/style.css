@@ -6,6 +6,7 @@ body {
   color: #dcab6b;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
+  margin-top: 50px;
 }
 #item {
   border: solid 1px rgb(228, 10, 10);
@@ -89,4 +90,28 @@ ul {
 .completed {
   text-decoration: line-through;
   color: #dcab6b;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #item, .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .btn-btn-danger {
+    margin-left: 0;
+    width: 100%;
+    float: none;
+  }
+  ul {
+    width: 100%;
+  }
+  label {
+    font-size: 18px;
+  }
 }
