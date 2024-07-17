@@ -20,6 +20,7 @@ label {
 }
 .btn {
   width: 305px;
+  height: 50px;
   border-style: none;
   background-color: #856031;
   margin-top: 5px;
